@@ -1,0 +1,336 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-bar {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/banner-School.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    padding: 10px 30px;
+}
+
+.logo img {
+    width: 80px;
+    height: 80px;
+
+}
+
+.logo-contant {
+    font-size: 20px;
+    color: crimson;
+    font-weight: bold;
+}
+
+.list-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.list-item li {
+    list-style: none;
+}
+
+.list-item li a {
+    text-decoration: none;
+    color: white;
+    padding: 0 30px;
+}
+
+.banner-contant {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 80px;
+}
+
+.banner-title {
+    color: white;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.banner-text {
+    color: white;
+    font-weight: 400;
+    text-align: center;
+    font-size: 20px;
+}
+
+.explore {
+
+    color: white;
+    transition: all 0.7s ease-in-out;
+}
+
+.explore:hover {
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: crimson;
+}
+
+/* courses-start */
+.course .global-campus .facilities {
+    margin-top: 50px;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.section-des {
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.card-container {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.card {
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: #FFF3F5;
+
+}
+
+.card h4,
+p {
+    text-align: center;
+    font-size: 15px;
+}
+
+.card:hover {
+    box-shadow: 0px 0 20px 0px rgba(0, 0, 0, 0.5)
+}
+
+/* courses-end */
+
+
+.global-campus.facilities.course
+{
+    width: 80%;
+    padding-top: 50px;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+.card-contain
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    position: relative ;
+    
+}
+.card-contain img
+{
+    width: 100%;
+   
+}
+.layer
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+   
+    top: 0;
+    left: 0;
+}
+.card-1 
+{
+   border: 1px solid gray;
+   width: 80%;
+   height: 80%;
+}
+.card-1 :hover
+{
+     background: transparent;
+    background-color: rgba(139, 99, 177, 0.7);
+}
+
+.card img
+{
+    width: 100%;
+}
+
+.card .card-heading
+{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+.card .card-text
+{
+    text-align: left;
+    font-size: 22px;
+}
+
+
+
+
+/* blog................ */
+
+.nav-bar-1 {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/graduation.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.blog-banner-contant 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 80px;
+}
+
+.blog-contant
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.catagory
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:40px
+
+}
+#blog-btn
+{
+    
+    width: 20%;
+   
+}
+.img-graduate
+{
+    width: 80%;
+    margin-top: 40px;
+}
+.img-graduate img{
+    width: 80%;
+}
+.gradute-text p{
+    text-align: left;
+}
+.catagory h5{
+    text-align: left;
+}
+.post-catagory .post{
+    background-color: crimson;
+    text-align: center;
+    color: white;
+}
+.comment
+{
+    display: flex;
+    flex-direction: column;
+    gap:25px;
+    width: 60%;
+    padding: 0 30px;
+}
+#blog-btn
+{
+    color:white;
+    background-color:   crimson;
+    padding: 15px 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+ input[type=text] ,input[type=email]
+{
+    padding: 10px 30px;
+    border: 1px solid gray;
+    border-radius: 15px;
+}
+textarea
+{
+    border: none;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.nav-bar-2 {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/graduation.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.about-banner-contant
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 80px;
+}
+.about
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+.about-content{
+    width: 40%;
+    padding: 10px 20px;
+}
+.about-heading
+{
+    margin-top: 10px;
+    text-align:center;
+    font-size: 30px;
+    font-weight: 900;
+}
+.about-text
+{
+    text-align: left;
+    font-size: 20px;
+}
+.about-img
+{
+    width: 50%;
+}
+.about-img img{
+    width: 100%;
+}
