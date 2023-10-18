@@ -6,6 +6,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+main,footer{
+    width: 1140px;
+    margin: 0 auto;
+}
 .nav-bar {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/banner-School.png');
     background-repeat: no-repeat;
@@ -195,9 +199,32 @@ p {
     text-align: left;
     font-size: 22px;
 }
+.join-class
+{
 
+    padding-top: 30px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/online.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    margin-top: 50px;
+    
+}
+.join-text 
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 20%;
+}
 
-
+.join-text h2
+{
+    color: white;
+    font-size: 30px;
+}
 
 /* blog................ */
 
